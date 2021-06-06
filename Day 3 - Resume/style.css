@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    height: 50px;
+    width: 110px;
+    background: white;
+    
+    text-align: justify;
+    font-size: x-large;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    position: sticky
+}
+
+.wrapper{
+
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    /* / z-index: -1; */ 
+}
+
+.left{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.right{
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+}
+
+.content.h3{
+    font-weight: 600;
+}
+p{
+    margin: 10px;
+
+}
+legend{
+  text-align:center;
+}

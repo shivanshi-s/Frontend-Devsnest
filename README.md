@@ -1,2 +1,4 @@
 # Frontend-Devsnest
-frontend with @Devsnest!
+Learning frontend with @Devs-nest!
+
+### Task 1 
