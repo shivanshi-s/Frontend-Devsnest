@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: #558776 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 450px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . .";
+}
+.rectangle {
+    border: 1px solid rgb(1, 30, 78);
+    background: rgb(94, 226, 164);
+    height: 75px;
+    width: 150px;
+}
+.active {
+    background: rgb(201, 192, 253);
+  }
+
+  .rectangle1 {
+    background: rgb(62, 54, 184);
+  }
+  .labels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+  }
+  h2 {
+    color: white;
+    font-size: 100%;
+    width: 25vw;
+    padding: 5%;
+  }
